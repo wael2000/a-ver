@@ -11,3 +11,9 @@ header("Expires: 0"); // Proxies.
  echo "My Pod IP is : ".$_SERVER['SERVER_ADDR'] ;
  ?>
 </div>
+<div>
+ Hello : 
+<?php
+echo $_ENV["HELLO_WORLD"];
+?>
+</div>
