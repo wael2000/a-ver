@@ -7,10 +7,16 @@ header("Expires: 0"); // Proxies.
 <H3> Hello - Abu Dhabi and Dubai </H1>
 <img src="/a-abtesting.png">
 <div>
+ 
 <?php
  echo "My Pod IP is : ".$_SERVER['SERVER_ADDR'] ;
- echo "My Pod IP is : ".$_SERVER['HOSTNAME'] ;
+ ?><br/>
+<?php
+ echo "My Pod Hostname is : ".$_SERVER['HOSTNAME'] ;
  echo "hello "
+ ?><br/>
+ <?php
+ echo "Hello you!"
  ?>
 </div>
 
