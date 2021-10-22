@@ -8,9 +8,9 @@ header("Expires: 0"); // Proxies.
 <img src="/a-abtesting.png">
 <div>
 <?php
- $hostname = getenv('HTTP_HOST');
+ $hostname = getenv('HOSTNAME');
  echo "My Pod IP is : ".$_SERVER['SERVER_ADDR'] ;
- echo "My Pod Name is : "$hostname ;
+ echo "My Pod Name is : ".$hostname;
  ?>
 </div>
 
