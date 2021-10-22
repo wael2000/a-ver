@@ -15,8 +15,8 @@ header("Expires: 0"); // Proxies.
  echo "My Pod Hostname is : ".$_SERVER['HOSTNAME'] ;
  ?><br/>
  <?php
- echo "Hello you!"
- echo "bonjour"
+ echo "Hello you!" ;
+ echo "bonjour" ;
  ?>
 </div>
 
