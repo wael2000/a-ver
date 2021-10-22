@@ -16,7 +16,7 @@ header("Expires: 0"); // Proxies.
  ?><br/>
  <?php
  echo "Hello you!"
- echo "bonjour "
+ echo "bonjour"
  ?>
 </div>
 
