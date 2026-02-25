@@ -4,5 +4,5 @@ metadata:
 components:
   - name: tools
     container:
-      image: quay.io/devfile/universal-developer-image:ubi8-3d26fec
+      image: registry.redhat.io/devspaces/udi-rhel9
       memoryLimit: 2Gi
